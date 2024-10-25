@@ -26,23 +26,11 @@ const Navbar = () => {
           <NavLink> home</NavLink>
         </li>
         <li className="p-4 hover:bg-secondary rounded-xl m-2 cursor-pointer duration-300 ">
-          <NavLink>about</NavLink>
+          <NavLink>brands</NavLink>
         </li>
         <li className="p-4 hover:bg-secondary rounded-xl m-2 cursor-pointer duration-300 ">
-          <NavLink>Service</NavLink>
+          <NavLink>types</NavLink>
         </li>
-
-        <li className="p-4 hover:bg-secondary rounded-xl m-2 cursor-pointer duration-300 ">
-          <NavLink>process</NavLink>
-        </li>
-        <li className="p-4 hover:bg-secondary rounded-xl m-2 cursor-pointer duration-300 ">
-          <NavLink>client</NavLink>
-        </li>
-        <div>
-          <button className="bg-white  py-2 px-8 rounded-full uppercase">
-            signup
-          </button>
-        </div>
       </ul>
       <div className="ml-8">
         <img src={Logo} alt="logo" />
